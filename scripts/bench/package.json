@@ -8,8 +8,7 @@
     "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
-    "chalk": "^2.1.0",
-    "chrome-launcher": "^0.13.2",
+
     "cli-table": "^0.3.1",
 
     "http2": "^3.3.6",
