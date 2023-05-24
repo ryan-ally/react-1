@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.25.0
+version: v1.25.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -1310,3 +1310,9 @@ patch:
         patched: '2022-08-23T00:41:59.170Z'
     - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
         patched: '2022-08-23T00:41:59.170Z'
+    - jest-cli > @jest/core > @jest/reporters > @jest/transform > @babel/core > @babel/generator > lodash:
+        patched: '2023-05-24T23:07:13.490Z'
+    - jest > @jest/core > @jest/reporters > @jest/transform > @babel/core > @babel/generator > lodash:
+        patched: '2023-05-24T23:07:13.490Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/transform > @babel/core > @babel/generator > lodash:
+        patched: '2023-05-24T23:07:13.490Z'
