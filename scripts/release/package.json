@@ -17,7 +17,7 @@
     "diff": "^3.5.0",
     "folder-hash": "^2.1.2",
     "prompt-promise": "^1.0.3",
-    "puppeteer": "^1.13.0",
+    "puppeteer": "^22.6.4",
     "pushstate-server": "^3.1.0",
     "request-promise-json": "^1.0.4",
     "semver": "^5.7.1",
