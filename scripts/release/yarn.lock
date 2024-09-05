@@ -488,6 +488,13 @@ brace-expansion@^1.1.7:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
 
+brace-expansion@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-2.0.1.tgz#1edc459e0f0c548486ecf9fc99f2221364b9a0ae"
+  integrity sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==
+  dependencies:
+    balanced-match "^1.0.0"
+
 braces@^3.0.1:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/braces/-/braces-3.0.2.tgz#3454e1a462ee8d599e236df336cd9ea4f8afe107"
@@ -854,6 +861,13 @@ debug@^4.1.0:
   dependencies:
     ms "^2.1.1"
 
+debug@^4.3.3:
+  version "4.3.6"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.6.tgz#2ab2c38fbaffebf8aa95fdfe6d88438c7a13c52b"
+  integrity sha512-O/09Bd4Z1fBrU4VzkhFqVgpPzaGbw6Sm9FEkBT1A/YBXQFGuuSxa1dN2nxgxS34JmKXqYx8CZAwEVoJFImUXIg==
+  dependencies:
+    ms "2.1.2"
+
 decompress-response@^3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/decompress-response/-/decompress-response-3.3.0.tgz#80a4dd323748384bfa248083622aedec982adff3"
@@ -1192,14 +1206,13 @@ find-replace@^1.0.3:
     array-back "^1.0.4"
     test-value "^2.1.0"
 
-folder-hash@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/folder-hash/-/folder-hash-2.1.2.tgz#7109f9cd0cbca271936d1b5544b156d6571e6cfd"
-  integrity sha512-PmMwEZyNN96EMshf7sek4OIB7ADNsHOJ7VIw7pO0PBI0BNfEsi7U8U56TBjjqqwQ0WuBv8se0HEfmbw5b/Rk+w==
+folder-hash@^4.0.2:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/folder-hash/-/folder-hash-4.0.4.tgz#f5ffa14e9fc6f3213598f6a367207adf7d419edc"
+  integrity sha512-zEyYH+UsHEfJJcCRSf9ai5I4CTZwZ8ObONRuEI5hcEmJY5pS0FUWKruX9mMnYJrgC7MlPFDYnGsK1R+WFYjLlQ==
   dependencies:
-    debug "^3.1.0"
-    graceful-fs "~4.1.11"
-    minimatch "~3.0.4"
+    debug "^4.3.3"
+    minimatch "~5.1.2"
 
 forever-agent@~0.6.1:
   version "0.6.1"
@@ -1336,11 +1349,6 @@ got@^9.6.0:
 graceful-fs@^4.1.2:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
-
-graceful-fs@~4.1.11:
-  version "4.1.15"
-  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.15.tgz#ffb703e1066e8a0eeaa4c8b80ba9253eeefbfb00"
-  integrity sha512-6uHUhOPEBgQ24HM+r6b/QwWfZq+yiFcipKFrOFiBEnWdy5sdzYoi+pJeQaPI5qOLRFqWmAXUPQNsielzdLoecA==
 
 graphlib@2.1.8, graphlib@^2.1.8:
   version "2.1.8"
@@ -1975,12 +1983,19 @@ mimic-response@^3.1.0:
   resolved "https://registry.yarnpkg.com/mimic-response/-/mimic-response-3.1.0.tgz#2d1d59af9c1b129815accc2c46a022a5ce1fa3c9"
   integrity sha512-z0yWI+4FDrrweS8Zmt4Ej5HdJmky15+L2e6Wgn3+iK5fWzb6T3fhNFq2+MeTRb064c6Wr4N/wv0DzQTjNzHNGQ==
 
-minimatch@^3.0.4, minimatch@~3.0.4:
+minimatch@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
   integrity sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
   dependencies:
     brace-expansion "^1.1.7"
+
+minimatch@~5.1.2:
+  version "5.1.6"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-5.1.6.tgz#1cfcb8cf5522ea69952cd2af95ae09477f122a96"
+  integrity sha512-lKwV/1brpG6mBUFHtb7NUmtABCb2WZZmm2wNiOA5hAb8VdCS4B3dtMWyvcoViccwAW/COERjXLt0zP1zXUN26g==
+  dependencies:
+    brace-expansion "^2.0.1"
 
 minimist@0.0.8:
   version "0.0.8"
@@ -2990,7 +3005,7 @@ snyk-try-require@1.3.1, snyk-try-require@^1.1.1, snyk-try-require@^1.3.1:
     lru-cache "^4.0.0"
     then-fs "^2.0.0"
 
-snyk@1.437.3, snyk@^1.437.3:
+snyk@^1.437.3:
   version "1.437.3"
   resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.437.3.tgz#a3cfbfb568bf60b19be31a337899ebe71365bd70"
   integrity sha512-DFcYz8Q8LT/XNCNxaeEoGahazvkEhWS//JWJTfr6W1d5jMnORQauPxxj4RR3WGjKewSDl2eElwK1jhi5RNOP9g==
