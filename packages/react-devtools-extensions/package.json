@@ -34,18 +34,18 @@
     "crx": "^5.0.0",
     "css-loader": "^1.0.1",
     "firefox-profile": "^1.0.2",
-    "node-libs-browser": "0.5.3",
+    "node-libs-browser": "1.0.0",
     "nullthrows": "^1.0.0",
     "open": "^7.0.2",
     "os-name": "^3.1.0",
     "raw-loader": "^3.1.0",
     "style-loader": "^0.23.1",
-    "web-ext": "^7.1.1",
+    "web-ext": "^8.3.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
-    "web-ext": "^7.1.1"
+    "web-ext": "^8.3.0"
   }
 }
